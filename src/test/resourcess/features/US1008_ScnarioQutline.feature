@@ -1,3 +1,4 @@
+
 Feature: US1008 Scenario Outline ile birden fazla data icin test calistirma
 
   Scenario Outline: TC13 scenario outline ile amazonda arama yapılabilme
