@@ -1,5 +1,6 @@
 Feature: US1002 Kullanici amazon anasayfada birden fazla urun aratir
 
+
   Scenario: TC02 Kullanici urunleri aratip test edebilmeli
 
     Given kullanici amazon anasayfaya gider

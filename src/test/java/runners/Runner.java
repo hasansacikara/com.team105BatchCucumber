@@ -6,13 +6,15 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resourcess/features" ,
+        plugin = {"html:target/cucumber-report.html"},
+        features = "src/test/resources/features" ,
         glue = "stepdefinitions" ,
         tags = "@wip" ,
         dryRun = false
 
 )
 public class Runner {
+
 
     /*
         Cucumber'da Runner class'i bos bir class'tir
@@ -36,6 +38,10 @@ public class Runner {
                 eksik adim yoksa test passed olarak isaretler
         false : secilirse, verilen tag ile isaretlenen
                 Feature veya Scenario'lari calistirir
+
+
+
+
      */
 
 
