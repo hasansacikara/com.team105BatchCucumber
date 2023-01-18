@@ -1,4 +1,3 @@
-@wip
 Feature: US1012 Window testi
 
   Scenario: TC17 kullanici yeni acilan window'u test edebilmeli
@@ -15,6 +14,8 @@ Feature: US1012 Window testi
     Then ilk sayfaya geri döner
     And ilk sayfaya döndügünü test eder
     And acilan tum sayfalari kapatir
+
+
 
 
 

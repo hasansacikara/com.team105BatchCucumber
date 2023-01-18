@@ -1,3 +1,4 @@
+
 Feature: US1002 Kullanici amazon anasayfada birden fazla urun aratir
 
 

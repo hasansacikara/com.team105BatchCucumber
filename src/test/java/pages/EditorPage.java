@@ -44,6 +44,7 @@ public class EditorPage {
     @FindBy(xpath = "//td[@class='sorting_1']")
     public WebElement ilkIsimElementi;
 
+
 }
 
 

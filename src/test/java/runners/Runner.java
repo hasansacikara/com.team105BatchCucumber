@@ -7,11 +7,21 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"html:target/cucumber-report.html"},
-        features = "src/test/resources/features" ,
+        features = "src/test/resourcess/features" ,
         glue = "stepdefinitions" ,
-        tags = "@wip" ,
+        tags = "wip" ,
         dryRun = false
-
+        // sorun neydı hocam. run edemiyorum classlar çalıyor fakat run çalışmıyor surekli hara alıyorm.sizde hocam
+        // hocam sorun butun adımları benım yaptıgım gıbı yapmanız gerekıyor Runner ıse onceden calıstırdıgı US1009
+        // hocam gordugun gıbı adımlar hatalı ben yenı bır ornek olsun dıye class olusturdum
+        // runner calısmama nedenı feature onceden artık nasıl oldu ıse anlamadım tanımlı olanı calıstırmaya calsııyor
+        //oda hatalı oldugu ıcın error  verıyordu
+        // hatalı olanı ıptal ettım sımdı calısıyor sıze tavsıyem adımları tekrardan yapmanız sadece Feature lerı sılın
+        //aynılarını tekrar yazın .
+        // hocam gerçeten çok ama çook tesekkür ederim  .
+        //goruyor elle mı yazdınız yoksa kodları kopyaladınız mı.
+        // eski projeyi hata veriyor diye yeni bir proje olusturdum kodları ise ahmet hocanın videolarini izleyerek
+        // tek tek yazdım bir hata olmasın diye adım adım uyguladım.
 )
 public class Runner {
 
